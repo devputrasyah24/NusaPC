@@ -161,17 +161,23 @@
   <tr>
     <td bgcolor="#2a2a2a" align="center">
       <br>
-      <video width="640" height="360" controls poster="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=640&q=80">
-        <source src="file:///C:/Users/dev/Documents/video.mp4" type="video/mp4">
-        Browser Anda tidak mendukung tag video HTML5.
-      </video>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Gf4j-x-WfGM?si=ZDXG2y7fxm70Oac6"
+        title="Rakit PC Gaming"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
       <br><br>
       <font color="#888888" size="2">
         <i>&#127925; Nikmati musik santai sembari menjelajahi website Dev PC:</i>
       </font>
       <br><br>
-      <audio controls>
-        <source src="file:///C:/Users/dev/Documents/Aces%20Phonk.mp3" type="audio/mpeg">
+      <audio controls autoplay loop>
+        <source src="./assets/bg-music.mp3" type="audio/mpeg">
         Browser Anda tidak mendukung tag audio HTML5.
       </audio>
       <br><br>
@@ -232,7 +238,7 @@
     <td width="33%" align="center" valign="top">
       <table width="100%" border="0" cellpadding="15" bgcolor="#2a2a2a">
         <tr><td align="center">
-          <img src="file:///C:/Users/dev/Documents/images%20(1).jpg" width="220" height="160" alt="RAM DDR5">
+          <img src="https://images.unsplash.com/photo-1706052867806-58e648b42829?w=250&h=180&fit=crop&q=80" width="220" height="160" alt="RAM DDR5">
         </td></tr>
         <tr><td align="center"><b><font size="4" color="#cccccc">RAM DDR5 32GB (2x16) 6000MHz</font></b></td></tr>
         <tr><td>
@@ -450,7 +456,7 @@
       <font size="3" color="#aaaaaa">Ingin memesan atau konsultasi build PC? Isi form berikut:</font>
       <br><br>
 
-      <form action="#" method="post">
+      <form action="#" method="POST">
         <table width="100%" border="0" cellpadding="8" cellspacing="4">
           <tr>
             <td width="35%"><b><font size="3" color="#cccccc">Nama Lengkap</font></b></td>
@@ -458,7 +464,7 @@
           </tr>
           <tr>
             <td><b><font size="3" color="#cccccc">Email Aktif</font></b></td>
-            <td><font color="#aaaaaa">: <input type="email" name="email" size="30" placeholder="budi@email.com"></font></td>
+            <td><font color="#aaaaaa">: <input type="email" name="email" size="30" placeholder="budi@example.com"></font></td>
           </tr>
           <tr>
             <td><b><font size="3" color="#cccccc">No. Telepon/WA</font></b></td>
@@ -475,7 +481,7 @@
             </td>
           </tr>
           <tr>
-            <td><b><font size="3" color="#cccccc">Paket Diminati</font></b></td>
+            <td><b><font size="3" color="#cccccc">Paket yang Diminati</font></b></td>
             <td>
               <font color="#aaaaaa">:
               <select name="paket">
